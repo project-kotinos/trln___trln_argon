@@ -1,0 +1,17 @@
+dependencies:
+  build:
+    - ruby:2.6.3
+
+build_targets:
+  - name: ruby.2.6.3
+    container: 
+      image: yourbase/yb_ubuntu:16.04
+    commands:
+        - chmod +x yourbased.sh
+        - sh ./yourbased.sh
+
+
+ci:
+  builds:
+    - name: ruby.2.6.3
+      build_target: ruby.2.6.3
