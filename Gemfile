@@ -12,6 +12,7 @@ gemspec
 
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
+gem 'tzinfo-data'
 
 # BEGIN ENGINE_CART BLOCK
 # engine_cart: 2.0.1
